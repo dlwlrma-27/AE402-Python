@@ -1,0 +1,6 @@
+file=open('Messi_vs_Nigeria_2018.jpg',"rb")
+img=file.read()
+file.close()
+file=open("he.bump","wb")
+file.write(img)
+file.close()
